@@ -1,0 +1,11 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 244 45" width="244" height="45">
+	<title>talkearn</title>
+	<style>
+		tspan { white-space:pre }
+		.txt0 { font-size: 67px;fill: #ffffff;font-weight: 500;font-family: "Montserrat-Medium", "Montserrat" } 
+	</style>
+	<text id="talkearn" style="transform: matrix(0.896,0.004,-0.004,0.896,-1.126,43.897)" >
+		<tspan x="0" y="0" class="txt0">t</tspan><tspan  y="0" class="txt0">a</tspan><tspan  y="0" class="txt0">l</tspan><tspan  y="0" class="txt0">k</tspan><tspan  y="0" class="txt0">e</tspan><tspan  y="0" class="txt0">a</tspan><tspan  y="0" class="txt0">r</tspan><tspan  y="0" class="txt0">n
+</tspan>
+	</text>
+</svg>
