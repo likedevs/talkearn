@@ -17,7 +17,7 @@
 
         <div class="Pollen-desktop-buttons">
           <a rel="noopener noreferrer" target="_blank" class="Button Button--white  button"
-             href="https://docs.talkearn.crypto">
+             href="https://docs.talkearn.app">
             <div class="Button-caption">Whitepaper</div>
           </a>
           <formArea></formArea>

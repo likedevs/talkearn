@@ -35,7 +35,7 @@
               Our whitepaper is now released, take a look!
             </div>
             <a rel="noopener noreferrer" target="_blank" class="Button Button--white  button"
-               href="https://docs.talkearn.crypto">
+               href="https://docs.talkearn.app">
               <div class="Button-caption">Read Documentation</div>
             </a>
           </div>
