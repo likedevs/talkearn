@@ -241,8 +241,8 @@
               </a>
               <a class="Pollen-telegram" target="_blank" href="/telegram">
                 <img src="https://pollen.id/static/media/telegram.451c86f3.svg" width="40px" alt="join us on telegram"></a>
-              <a class="Pollen-discord" target="_blank" href="/discord">
-                <img src="https://pollen.id/static/media/discord.4b8d6701.svg" alt="join us on discord">
+              <a class="Pollen-discord medium-icon" target="_blank" href="#">
+                <img src="/Medium-Logo.svg" alt="medium" style="height: 27px;">
               </a>
             </div>
           </div>
@@ -277,7 +277,6 @@
           </div>
         </section>
       </div>
-<!--      <footer-area></footer-area>-->
     </div>
   </div>
 </template>

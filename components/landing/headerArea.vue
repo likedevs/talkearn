@@ -24,16 +24,17 @@
         </div>
         <div class="Pollen-desktop-icons">
           <a class="Pollen-twitter" target="_blank" href="#">
-            <img src="https://pollen.id/static/media/twitter.a6815caa.svg" alt="follow us on twitter">
+            <img src="https://pollen.id/static/media/twitter.a6815caa.svg" alt="twitter">
           </a>
           <a class="Pollen-telegram" target="_blank" href="#">
-            <img src="https://pollen.id/static/media/telegram.451c86f3.svg" alt="join us on telegram">
+            <img src="https://pollen.id/static/media/telegram.451c86f3.svg" alt="telegram">
           </a>
-          <a class="Pollen-discord" target="_blank" href="#">
-            <img src="https://pollen.id/static/media/discord.4b8d6701.svg" alt="join us on discord">
+          <a class="Pollen-discord medium-icon" target="_blank" href="#">
+            <img src="/Medium-Logo.svg" alt="medium" style="height: 15px;">
           </a>
         </div>
       </header>
+
       <header  :class="['Pollen-nav-mobile', drawer, 'false', 'is-scrolled']">
         <div class="Pollen-nav-mobile-header">
           <div class="Pollen-logo">
@@ -54,14 +55,15 @@
           </div>
         </div>
         <div :class="['Nav-icons', hidden]">
-          <a class="Pollen-discord" target="_blank" href="/discord">
-            <img src="https://pollen.id/static/media/discord.4b8d6701.svg" alt="join us on discord">
-          </a>
+
           <a class="Pollen-telegram" target="_blank" href="/telegram">
             <img src="https://pollen.id/static/media/telegram.451c86f3.svg" alt="join us on telegram">
           </a>
           <a class="Pollen-twitter" target="_blank" href="/twitter">
             <img src="https://pollen.id/static/media/twitter.a6815caa.svg" alt="follow us on twitter">
+          </a>
+          <a class="Pollen-discord medium-icon" target="_blank" href="#">
+            <img src="/Medium-Logo.svg" alt="medium" style="height: 15px;">
           </a>
 
         </div>

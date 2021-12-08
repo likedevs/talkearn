@@ -2126,7 +2126,7 @@ html {
 
 .Home .has-text.is-white {
     color: #fff;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .Home .has-text.is-grey {
@@ -2327,7 +2327,7 @@ html {
         top: -92px
     }
     .Home .Section-4 {
-        padding-bottom: 0 !important;
+        /*padding-bottom: 0 !important;*/
     }
     .Home .Breaker {
         top: -91px;
@@ -2346,6 +2346,15 @@ html {
     }
     .Footer {
         height: auto !important;
+    }
+    .Section-1-main a, .Section-2-main a {
+        margin: 20px 0;
+    }
+    .Home .Section-4-main .Hero-4 {
+        margin-top: 50px;
+    }
+    .Home .has-text.is-paragraph-main {
+        padding-top: 20px;
     }
 }
 .Home .Section-10 .Section-10-main .Heading--desktop {
@@ -2403,4 +2412,12 @@ html {
 }
 .Tabs-content .v-card__text {
     text-align: left;
+}
+.medium-icon {
+    width: 25px;
+    overflow: hidden;
+}
+.medium-icon img {
+    color: #FFF;
+    /*height: 38px;*/
 }

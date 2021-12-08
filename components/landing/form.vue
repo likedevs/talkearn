@@ -52,8 +52,8 @@
         </v-form>
       </v-card-text>
       <v-card-actions v-if="!success">
-        <v-spacer></v-spacer>
         <v-btn
+            style="margin: 0 auto"
             color="primary  btn"
             @click="submit()"
         >

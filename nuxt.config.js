@@ -7,11 +7,11 @@ module.exports = {
     */
     head: {
         titleTemplate: '%s',
-        title: 'terradigital.ro',
+        title: 'talkearn',
         meta: [
             {charset: 'utf-8'},
             {name: 'viewport', content: 'width=device-width, initial-scale=1'},
-            {hid: 'description', name: 'description', content: 'terradigital.ro'},
+            {hid: 'description', name: 'description', content: 'talkearn'},
             {name: 'facebook-domain-verification', content: 'zhd8ab5sq0dcog9zbvmxy74zgsdaim'}
         ],
         link: [
