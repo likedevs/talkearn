@@ -3,7 +3,8 @@
     <div class="AppRoot">
       <div class="Home">
         <section class="Section-1">
-          <img class="Hero-1" src="https://pollen.id/static/media/head.57e70e8b.png" alt="david's head">
+          <img class="Hero-1" src="/landing/Banner-Main-Backgroud-2-mobile.png" v-if="$mobileDetect.mobile()" alt="david's head">
+          <img class="Hero-1" src="/landing/Banner-Main-Backgroud-2.png" v-if="!$mobileDetect.mobile()" alt="david's head">
           <div class="Section-1-main">
             <div class="Heading has-text is-white is-heading is-large">
               An Ecosystem for Crypto Investors. Built on Blockchain.
