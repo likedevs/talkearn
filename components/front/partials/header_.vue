@@ -24,7 +24,6 @@
                     <v-list-item>
                         <v-list-item-content>
                             <nuxt-link to="/">
-                                <img height="25" src="@/static/logo-terra.png" alt="" class="logo-burgher">
                             </nuxt-link>
                         </v-list-item-content>
                         <v-list-item-icon @click="drawer = false">
