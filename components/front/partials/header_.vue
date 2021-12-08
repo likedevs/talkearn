@@ -168,7 +168,7 @@
 
             <v-toolbar-title>
                 <nuxt-link to="/">
-                    <img class="logo" src="@/static/logo-terra.png" alt="">
+<!--                    <img class="logo" src="@/static/logo-terra.png" alt="">-->
                 </nuxt-link>
             </v-toolbar-title>
 
@@ -267,7 +267,7 @@
                     <v-col class="col-auto col-md-2">
                         <v-toolbar-title to="/">
                             <nuxt-link to="/">
-                                <img width="160" class="logo" src="@/static/logo-terra.png" alt="">
+<!--                                <img width="160" class="logo" src="@/static/logo-terra.png" alt="">-->
                             </nuxt-link>
                         </v-toolbar-title>
                     </v-col>
