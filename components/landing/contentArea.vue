@@ -285,7 +285,7 @@
 
 import headerArea from '~/components/landing/headerArea'
 import footerArea from '~/components/landing/footerArea'
-import experts from '~/components/front/widgets/expertsWidget'
+import experts from '~/components/landing/expertsWidget'
 import formArea from '~/components/landing/form'
 import userApi from "~/api/userApi";
 import {mapActions, mapGetters} from 'vuex'

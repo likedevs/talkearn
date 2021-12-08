@@ -109,7 +109,7 @@
 import {mapActions, mapGetters} from 'vuex'
 import contentApi from '@/api/contentApi.js'
 import cartBtn from "@/components/front/cart/cartBtn"
-import Experts from '@/components/front/widgets/expertsWidget.vue'
+import Experts from '~/components/landing/expertsWidget.vue'
 
 
 export default {

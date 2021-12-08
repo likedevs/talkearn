@@ -55,7 +55,7 @@
 
 import { mapGetters, mapActions } from 'vuex'
 import Testimonials from "@/components/front/sliders/testimonialsSlider"
-import Experts from "@/components/front/widgets/expertsWidget.vue"
+import Experts from "~/components/landing/expertsWidget.vue"
 import MapContact from "@/components/front/widgets/mapWidget.vue"
 
 export default {

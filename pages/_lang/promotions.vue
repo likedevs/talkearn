@@ -191,7 +191,7 @@
 <script>
 
 import { mapActions, mapGetters } from 'vuex'
-import Experts from "@/components/front/widgets/expertsWidget.vue"
+import Experts from "~/components/landing/expertsWidget.vue"
 import appointmentForm from "@/components/front/forms/appointmentForm.vue"
 import userApi from '@/api/userApi'
 import chatBot from '@/components/chat-module/chat-bot/chatBot'

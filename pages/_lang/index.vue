@@ -82,7 +82,7 @@ import 'slick-carousel/slick/slick.css';
 import {mapActions, mapGetters} from 'vuex'
 import Testimonials from '@/components/front/sliders/testimonialsSlider'
 import Banner from '@/components/front/sliders/homeSlider'
-import Experts from '@/components/front/widgets/expertsWidget.vue'
+import Experts from '~/components/landing/expertsWidget.vue'
 import Services from '@/components/front/widgets/servicesWidget.vue'
 import MapContact from "@/components/front/widgets/mapWidget.vue"
 import Recommended from "~/components/front/widgets/recommended";

@@ -7,6 +7,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+components/front
+
 # Runtime data
 pids
 *.pid

@@ -52,7 +52,7 @@
 import 'slick-carousel/slick/slick.css';
 import { mapActions, mapGetters } from 'vuex'
 import Slick from 'vue-slick'
-import Experts from "@/components/front/widgets/expertsWidget.vue"
+import Experts from "~/components/landing/expertsWidget.vue"
 import MapContact from "@/components/front/widgets/mapWidget.vue"
 
 
