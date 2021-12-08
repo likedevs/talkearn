@@ -35,7 +35,7 @@
         </div>
       </header>
 
-      <header  :class="['Pollen-nav-mobile', drawer, 'false', 'is-scrolled']">
+      <header :class="['Pollen-nav-mobile', drawer, 'false', 'is-scrolled']">
         <div class="Pollen-nav-mobile-header">
           <div class="Pollen-logo">
             <img src="/landing/logo.svg" class="is-static" alt="logo" width="100%">
@@ -90,7 +90,7 @@ export default {
         this.drawer = 'is-expanded'
         this.hamburger = 'is-active'
         this.hidden = false
-      }else {
+      } else {
         this.drawer = false
         this.hamburger = false
         this.hidden = 'is-hidden'
