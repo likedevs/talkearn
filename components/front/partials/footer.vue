@@ -3,7 +3,6 @@
     <v-container>
         <v-row align="center" justify="center">
             <nuxt-link to="/" class="footer-logo">
-                <img height="40" src="@/static/logo-terra.png" alt="">
             </nuxt-link>
         </v-row>
 
