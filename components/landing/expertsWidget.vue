@@ -33,26 +33,26 @@
             <v-card-actions
                 class="pb-5 justify-center"
             >
-              <v-btn
-                  v-if="item.status"
-                  color="primary"
-                  @click="openVideoCall(item)"
-              >
-                <v-icon left>mdi-phone</v-icon>
-              </v-btn>
-              <v-btn
-                  color="primary"
-                  @click="openDialog(item)"
-              >
-                <v-icon left>mdi-chat</v-icon>
-              </v-btn>
-              <v-btn
-                  target="_blank"
-                  color="primary"
-                  :href="item.phone"
-              >
-                <v-icon left>mdi-linkedin</v-icon>
-              </v-btn>
+<!--              <v-btn-->
+<!--                  v-if="item.status"-->
+<!--                  color="primary"-->
+<!--                  @click="openVideoCall(item)"-->
+<!--              >-->
+                <v-icon left @click="openVideoCall(item)" color="white">mdi-phone</v-icon>
+<!--              </v-btn>-->
+<!--              <v-btn-->
+<!--                  color="primary"-->
+<!--                  @click="openDialog(item)"-->
+<!--              >-->
+                <v-icon left @click="openDialog(item)" color="white">mdi-chat</v-icon>
+<!--              </v-btn>-->
+<!--              <v-btn-->
+<!--                  target="_blank"-->
+<!--                  color="primary"-->
+<!--                  :href="item.phone"-->
+<!--              >-->
+                <v-icon left :href="item.phone" color="white" style="cursor: pointer">mdi-linkedin</v-icon>
+<!--              </v-btn>-->
             </v-card-actions>
           </v-card>
         </v-col>
