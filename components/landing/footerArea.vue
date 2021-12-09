@@ -8,13 +8,13 @@
     </div>
     <div class="Footer-icons">
       <a class="Pollen-twitter" target="_blank" href="#">
-        <img src="https://pollen.id/static/media/twitter.a6815caa.svg" alt="twitter">
+        <img src="/landing/twitter-icon-white-transparent-24.svg" alt="twitter">
       </a>
       <a class="Pollen-telegram" target="_blank" href="#">
-        <img src="https://pollen.id/static/media/telegram.451c86f3.svg" alt="telegram">
+        <img src="/landing/telegram-icon-white-transparent.svg" alt="telegram">
       </a>
       <a class="Pollen-discord medium-icon" target="_blank" href="#">
-        <img src="/Medium-Logo.svg" alt="medium" style="height: 15px;">
+        <img src="/landing/Medium-Logo.svg" alt="medium" style="height: 15px;">
       </a>
     </div>
     <div class="Footer-copyright mobile">© Copyright 2021 — TalkEarn</div>
