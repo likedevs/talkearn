@@ -8,7 +8,7 @@
             {{ message }}
         </v-alert>
         <div class="crm-logo-wrapp justify-center text-center">
-            <img src="/logo-docrom4.png" class="crm-logo">
+            <img src="/landing/logo.svg" class="crm-logo">
         </div>
         <div class="v-sheet auth__inner">
             <div class="v-card pa-4" light>

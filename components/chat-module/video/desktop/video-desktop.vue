@@ -2,7 +2,8 @@
     <div class="d-flex">
 
         <div class="video">
-            <small class="chatWarning">{{ trans.General.chatWarning }}</small>
+            <small class="chatWarning">
+            </small>
             <div class="video__top d-flex justify-space-between">
                 <v-sheet dark>
                     <!-- <v-btn small dark>

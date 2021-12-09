@@ -2,7 +2,6 @@
     <div class="d-flex">
         <div class="video-mobile">
             <small class="chatWarning">
-                {{ trans.General.chatWarning }}
                 <v-sheet dark class="but-end">
                     <v-btn small dark fab color="secondary" @click="end" class="end-btn">
                         <v-icon dark>

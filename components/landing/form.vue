@@ -5,7 +5,7 @@
   >
     <template v-slot:activator="{ on, attrs }">
       <a rel="noopener noreferrer"
-         class="Button Button--yellow  button typeform-share"
+         class="Button Button--white  button"
          v-bind="attrs"
          v-on="on">
         <div class="Button-caption">{{ title ? title : 'Get Whitelisted' }}</div>
@@ -35,6 +35,12 @@
               v-model="form.email"
               label="Email Address*"
               :rules="emailRules"
+              required
+          ></v-text-field>
+          <v-text-field
+              v-model="form.twitter"
+              label="Twitter*"
+              :rules="twitterRules"
               required
           ></v-text-field>
           <v-text-field
@@ -80,6 +86,7 @@ export default {
         valid: false,
         name: '',
         email: '',
+        twitter: '',
         phone: '',
         age: '',
       },
@@ -89,6 +96,9 @@ export default {
       emailRules: [
         v => !!v || 'E-mail is required',
         v => /.+@.+\..+/.test(v) || 'E-mail must be valid',
+      ],
+      twitterRules: [
+        v => !!v || 'Twitter is required',
       ],
       telegramRules: [
         v => !!v || 'Telegram @username is required',
@@ -105,6 +115,7 @@ export default {
     submit() {
       if (this.$refs.form.validate()) {
         this.form.guestId = this.user._id
+        this.form.comment = this.form.twitter
         userApi.bookUser(this.form, async response => {
           this.success = true
         })

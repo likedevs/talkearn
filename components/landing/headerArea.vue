@@ -23,13 +23,13 @@
           <formArea></formArea>
         </div>
         <div class="Pollen-desktop-icons">
-          <a class="Pollen-twitter" target="_blank" href="#">
+          <a class="Pollen-twitter" target="_blank" href="https://twitter.com/TalkEarn">
             <img src="/landing/twitter-icon-white-transparent-24.svg" alt="twitter">
           </a>
           <a class="Pollen-telegram" target="_blank" href="#">
             <img src="/landing/telegram-icon-white-transparent.svg" alt="telegram">
           </a>
-          <a class="Pollen-discord medium-icon" target="_blank" href="#">
+          <a class="Pollen-discord medium-icon" target="_blank" href="https://talkearn.medium.com/">
             <img src="/landing/Medium-Logo.svg" alt="medium" style="height: 15px;">
           </a>
         </div>
@@ -56,13 +56,13 @@
         </div>
         <div :class="['Nav-icons', hidden]">
 
-          <a class="Pollen-telegram" target="_blank" href="/telegram">
+          <a class="Pollen-telegram" target="_blank" href="#">
             <img src="https://pollen.id/static/media/telegram.451c86f3.svg" alt="join us on telegram">
           </a>
-          <a class="Pollen-twitter" target="_blank" href="/twitter">
+          <a class="Pollen-twitter" target="_blank" href="https://twitter.com/TalkEarn">
             <img src="https://pollen.id/static/media/twitter.a6815caa.svg" alt="follow us on twitter">
           </a>
-          <a class="Pollen-discord medium-icon" target="_blank" href="#">
+          <a class="Pollen-discord medium-icon" target="_blank" href="https://talkearn.medium.com/">
             <img src="/Medium-Logo.svg" alt="medium" style="height: 15px;">
           </a>
 

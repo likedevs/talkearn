@@ -9,7 +9,7 @@
         width="260"
         >
         <v-toolbar color="primary darken-1" class="crm-logo-wrapper" dark>
-            <img src="/logo-docrom4.png" class="crm-logo">
+            <img src="/landing/logo.svg" class="crm-logo">
         </v-toolbar>
         <v-list dense expand>
 

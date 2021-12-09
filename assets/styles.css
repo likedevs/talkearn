@@ -115,7 +115,7 @@ body {
 }
 
 .Pollen-logo img {
-    margin-top: 12px;
+    margin-top: 7px;
 }
 
 .Pollen-nav-desktop {
@@ -2364,9 +2364,12 @@ html {
     margin: 27px;
     border-bottom: 1px solid #787777;
 }
-.theme--light.v-expansion-panels .v-expansion-panel {
-    background-color: transparent;
+.Section-7-main .theme--light.v-expansion-panels .v-expansion-panel {
+    background-color: transparent !important;
     color: #FFF;
+}
+.Section-7-main .v-expansion-panel::before {
+    box-shadow: none;
 }
 .theme--light.v-expansion-panels .v-expansion-panel-header .v-expansion-panel-header__icon .v-icon {
     color: #FFF;
@@ -2420,4 +2423,19 @@ html {
 .medium-icon img {
     color: #FFF;
     /*height: 38px;*/
+}
+.v-slide-group__content {
+    flex: none;
+}
+.Section-6-tabs .v-card > *:last-child:not(.v-btn):not(.v-chip) {
+    padding: 0 !important;
+    line-height: 2 !important;
+}
+.Section-11-main .v-card__subtitle, .v-card__text, .v-card__title {
+    padding: 0;
+}
+.Section-11-main .v-responsive {
+    max-width: 80%;
+    margin: 0 auto;
+    display: block;
 }

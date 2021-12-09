@@ -7,15 +7,15 @@ module.exports = {
     */
     head: {
         titleTemplate: '%s',
-        title: 'talkearn',
+        title: 'TALKEARN - An Ecosystem for Crypto Investors',
         meta: [
             {charset: 'utf-8'},
             {name: 'viewport', content: 'width=device-width, initial-scale=1'},
-            {hid: 'description', name: 'description', content: 'Talkearn'},
+            {hid: 'description', name: 'description', content: 'A first  decentralized platform, connecting crypto-traders and investors in one ecosystem built on Talk2Earn technology'},
             {name: 'facebook-domain-verification', content: 'zhd8ab5sq0dcog9zbvmxy74zgsdaim'}
         ],
         link: [
-            {rel: 'icon', type: 'image/x-icon', href: '/fav.png'}
+            {rel: 'icon', type: 'image/x-icon', href: '/fav.svg'}
         ],
         script: [
             { src: '/scripts/ammocrm.js' },

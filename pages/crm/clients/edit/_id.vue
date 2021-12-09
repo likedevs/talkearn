@@ -56,8 +56,8 @@
                                 </div>
                                 <div class="col-md-4 col-12">
                                     <v-text-field
-                                        label="Comments"
-                                        v-model="editedUser.comments"
+                                        label="Twitter"
+                                        v-model="editedUser.comment"
                                         required
                                     ></v-text-field>
                                 </div>

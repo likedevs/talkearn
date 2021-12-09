@@ -2,7 +2,7 @@
   <div id="root">
     <div class="AppRoot">
       <div class="Home">
-        <section class="Section-1" style="background-image:url('~static/landing/Banner-Main-Backgroud.png')">
+        <section class="Section-1" style="background-image:url('/landing/Banner-Main-Backgroud.png')">
           <img class="Hero-1" src="/landing/Banner-Main-Right.png" alt="TalkEarn Platform">
           <div class="Section-1-main">
             <div class="Heading has-text is-white is-heading is-large">
@@ -16,7 +16,7 @@
             <div class="Sidenote">*Get whitelisted to use the platform on launch day.</div>
           </div>
         </section>
-        <section class="Section-2" id="join" style="background-image:url('~static/landing/Banner_TalkEarn_background_Desktop.png')">
+        <section class="Section-2" id="join" style="background-image:url('/landing/Banner_TalkEarn_background_Desktop.png')">
           <div class="Hero-2">
             <img alt="laptop hero" src="/landing/Banner_TalkEarn_laptopImage_Desktop&Mobile.png">
           </div>
@@ -105,7 +105,7 @@
         <section class="Section-6" id="tokens">
           <div class="Heading has-text is-white is-heading is-large">Meet The Tokens</div>
           <div class="Section-6-hero has-text is-paragraph-main is-white">
-            <div class="image" style="background-image:url('~static/landing/Banner_MeetTaken_squareImage_Desktop.png')"></div>
+            <div class="image" style="background-image:url('/landing/Banner_MeetTaken_squareImage_Desktop.png')"></div>
           </div>
           <div class="Section-6-main">
             <div class="Section-6-tabs has-text is-paragraph-main is-white">
@@ -158,16 +158,16 @@
                   </v-tabs-items>
                 </div>
               </div>
-              <div class="text-center-btn">
-                <form-area :title="'Join Us Now'"></form-area>
-              </div>
+<!--              <div class="">-->
+<!--                <form-area :title="'Join Us Now'"></form-area>-->
+<!--              </div>-->
             </div>
           </div>
         </section>
         <section class="Section-7">
           <div class="Section-7-main">
             <div class="Section-7-hero">
-              <div class="image" style="background-image:url('~static/landing/Banner_Monetization_section.png')"></div>
+              <div class="image" style="background-image:url('/landing/Banner_Monetization_section.png')"></div>
             </div>
             <div class="Heading has-text is-white is-heading is-large">TalkEarn Platform Monetisation System</div>
             <div class="Paragraph has-text is-white is-paragraph-main">
@@ -208,12 +208,12 @@
             <form-area :title="'Learn More'"></form-area>
           </div>
         </section>
-        <section class="Section-8">
+        <section class="Section-8" id="about">
           <div class="Section-8-hero">
-            <div class="image" style="background-image:url('~static/landing/Banner_ShareKnowledge_section.png')"></div>
+            <div class="image" style="background-image:url('/landing/Banner_ShareKnowledge_section.png')"></div>
           </div>
           <div class="Section-8-main">
-            <div class="Heading has-text is-white is-heading is-large">Share Your Knowledge</div>
+            <div class="Heading has-text is-white is-heading is-large" >Share Your Knowledge</div>
             <div class="Section-8-tabs has-text is-paragraph-main is-white">
               Less barriers to share Your Knowledge and Experience. Create Your own page on Our Platform and start
               earning by consulting young investors and traders. Get paid instantly!
@@ -234,7 +234,7 @@
               </a>
               <a class="Pollen-telegram" target="_blank" href="/telegram">
                 <img src="/landing/telegram-icon-white-transparent.svg" width="40px" alt="join us on telegram"></a>
-              <a class="Pollen-discord medium-icon" target="_blank" href="#">
+              <a class="Pollen-discord medium-icon" target="_blank" href="#" style="width: 52px;">
                 <img src="/landing/Medium-Logo.svg" alt="medium" style="height: 27px;">
               </a>
             </div>
