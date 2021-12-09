@@ -2,7 +2,7 @@
   <footer class="Footer">
     <div class="Nav Footer-links">
       <a href="#">Top</a>
-      <a target="_blank" href="https://docs.talkearn.apps">Docs</a>
+      <a target="_blank" href="https://docs.talkearn.app">Docs</a>
       <policies></policies>
       <terms></terms>
     </div>
