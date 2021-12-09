@@ -51,7 +51,10 @@
 <!--                  color="primary"-->
 <!--                  :href="item.phone"-->
 <!--              >-->
-                <v-icon left :href="item.phone" color="white" style="cursor: pointer">mdi-linkedin</v-icon>
+              <a :href="item.phone" target="_blank">
+                <v-icon left  color="white">mdi-linkedin</v-icon>
+              </a>
+
 <!--              </v-btn>-->
             </v-card-actions>
           </v-card>

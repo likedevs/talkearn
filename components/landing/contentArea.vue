@@ -229,12 +229,13 @@
               talk and get you involved in what we’re building. Get in touch and help us revolutionize Crypto.
             </div>
             <div class="Section-9-icons">
-              <a class="Pollen-twitter" target="_blank" href="/twitter">
+              <a class="Pollen-twitter" target="_blank" href="https://twitter.com/TalkEarn">
                 <img src="/landing/twitter-icon-white-transparent-24.svg" width="40px" alt="follow us on twitter">
               </a>
-              <a class="Pollen-telegram" target="_blank" href="/telegram">
-                <img src="/landing/telegram-icon-white-transparent.svg" width="40px" alt="join us on telegram"></a>
-              <a class="Pollen-discord medium-icon" target="_blank" href="#" style="width: 52px;">
+              <a class="Pollen-telegram" target="_blank" href="#">
+                <img src="/landing/telegram-icon-white-transparent.svg" width="40px" alt="join us on telegram">
+              </a>
+              <a class="Pollen-discord medium-icon" target="_blank" href="https://talkearn.medium.com/" style="width: 52px;">
                 <img src="/landing/Medium-Logo.svg" alt="medium" style="height: 27px;">
               </a>
             </div>
