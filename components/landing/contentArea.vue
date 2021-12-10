@@ -22,7 +22,7 @@
           </div>
           <div class="Section-2-main">
             <div class="Heading has-text is-white is-heading is-large">
-              Join Play2Earn Ecosystem
+              Join Talk2Earn Ecosystem
             </div>
             <div class="Paragraph-2 has-text is-paragraph-main is-white">
               TalkEarn is a state-of-the-art decentralized ecosystem utilizing sophisticated Talk2Earn and webRTC technologies to
