@@ -105,7 +105,9 @@
         <section class="Section-6" id="tokens">
           <div class="Heading has-text is-white is-heading is-large">Meet The Tokens</div>
           <div class="Section-6-hero has-text is-paragraph-main is-white">
-            <div class="image" style="background-image:url('/landing/Banner_MeetTaken_squareImage_Desktop.png')"></div>
+            <div class="image" style="background-image:url('/landing/Banner_MeetTaken_squareImage_Desktop.png')" v-if="$mobileDetect.mobile()"></div>
+            <div class="image" style="background-image:url('/landing/Banner_MeetTaken_squareImage_Mobile.png')" v-if="!$mobileDetect.mobile()"></div>
+
           </div>
           <div class="Section-6-main">
             <div class="Section-6-tabs has-text is-paragraph-main is-white">
@@ -167,7 +169,8 @@
         <section class="Section-7">
           <div class="Section-7-main">
             <div class="Section-7-hero">
-              <div class="image" style="background-image:url('/landing/Banner_Monetization_section.png')"></div>
+              <div class="image" style="background-image:url('/landing/Banner_Monetization_section.png')" v-if="$mobileDetect.mobile()"></div>
+              <div class="image" style="background-image:url('/landing/Banner_Monetization_section_mobile.png')" v-if="!$mobileDetect.mobile()"></div>
             </div>
             <div class="Heading has-text is-white is-heading is-large">TalkEarn Platform Monetisation System</div>
             <div class="Paragraph has-text is-white is-paragraph-main">
@@ -210,7 +213,8 @@
         </section>
         <section class="Section-8" id="about">
           <div class="Section-8-hero">
-            <div class="image" style="background-image:url('/landing/Banner_ShareKnowledge_section.png')"></div>
+            <div class="image" style="background-image:url('/landing/Banner_ShareKnowledge_section.png')" v-if="$mobileDetect.mobile()"></div>
+            <div class="image" style="background-image:url('/landing/Banner_ShareKnowledge_section_mobile.png')" v-if="!$mobileDetect.mobile()"></div>
           </div>
           <div class="Section-8-main">
             <div class="Heading has-text is-white is-heading is-large" >Share Your Knowledge</div>
@@ -232,7 +236,7 @@
               <a class="Pollen-twitter" target="_blank" href="https://twitter.com/TalkEarn">
                 <img src="/landing/twitter-icon-white-transparent-24.svg" width="40px" alt="follow us on twitter">
               </a>
-              <a class="Pollen-telegram" target="_blank" href="#">
+              <a class="Pollen-telegram" target="_blank" href="https://t.me/talkearn_official">
                 <img src="/landing/telegram-icon-white-transparent.svg" width="40px" alt="join us on telegram">
               </a>
               <a class="Pollen-discord medium-icon" target="_blank" href="https://talkearn.medium.com/" style="width: 52px;">

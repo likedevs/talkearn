@@ -56,7 +56,7 @@
         </div>
         <div :class="['Nav-icons', hidden]">
 
-          <a class="Pollen-telegram" target="_blank" href="#">
+          <a class="Pollen-telegram" target="_blank" href="https://t.me/talkearn_official">
             <img src="https://pollen.id/static/media/telegram.451c86f3.svg" alt="join us on telegram">
           </a>
           <a class="Pollen-twitter" target="_blank" href="https://twitter.com/TalkEarn">
