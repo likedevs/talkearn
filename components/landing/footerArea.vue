@@ -16,6 +16,9 @@
       <a class="Pollen-discord medium-icon" target="_blank" href="https://talkearn.medium.com/">
         <img src="/landing/Medium-Logo.svg" alt="medium" style="height: 15px;">
       </a>
+      <a class="Pollen-discord medium-icon" target="_blank" href="https://github.com/talkearn/talkearn">
+        <img src="/landing/github-logo.svg" alt="medium" style="height: 15px;">
+      </a>
     </div>
     <div class="Footer-copyright mobile">© Copyright 2021 — TalkEarn</div>
   </footer>
