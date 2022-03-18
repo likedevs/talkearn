@@ -9,14 +9,35 @@
               An Ecosystem for Crypto Investors. Built on Blockchain.
             </div>
             <div class="Paragraph-1 has-text is-white is-paragraph-main">
-            A first  decentralized platform, connecting crypto-traders
-            and investors in one ecosystem built on Talk2Earn technology.
+              A first decentralized platform, connecting crypto-traders
+              and investors in one ecosystem built on Talk2Earn technology.
             </div>
             <form-area :title="'Join Us'"></form-area>
             <div class="Sidenote">*Get whitelisted to use the platform on launch day.</div>
           </div>
         </section>
-        <section class="Section-2" id="join" style="background-image:url('/landing/Banner_TalkEarn_background_Desktop.png')">
+
+        <section class="Section-1 is-centered"
+                 style="background-image:url('/landing/Banner-Main-Backgroud.png'); display: flex;">
+
+          <iframe width="860" height="480" style="margin: 0 auto 50px; border: none"
+                  v-if="!$mobileDetect.mobile()"
+                  src="https://www.youtube.com/embed/xceENnAwE-0?autoplay=1"
+                  allow='autoplay'
+                  allowfullscreen>
+          </iframe>
+
+          <iframe width="320" height="330" style="margin: 0 auto 50px; border: none"
+                  v-if="$mobileDetect.mobile()"
+                  src="https://www.youtube.com/embed/xceENnAwE-0?autoplay=1"
+                  allow='autoplay; encrypted-media'
+                  allowfullscreen>
+          </iframe>
+
+        </section>
+
+        <section class="Section-2" id="join"
+                 style="background-image:url('/landing/Banner_TalkEarn_background_Desktop.png')">
           <div class="Hero-2">
             <img alt="laptop hero" src="/landing/Banner_TalkEarn_laptopImage_Desktop&Mobile.png">
           </div>
@@ -25,11 +46,14 @@
               Join Talk2Earn Ecosystem
             </div>
             <div class="Paragraph-2 has-text is-paragraph-main is-white">
-              TalkEarn is a state-of-the-art decentralized ecosystem utilizing sophisticated Talk2Earn and webRTC technologies to
+              TalkEarn is a state-of-the-art decentralized ecosystem utilizing sophisticated Talk2Earn and webRTC
+              technologies to
               connect crypto traders and investors, allowing them to earn money for their knowledge and experience.
               The core features powered by the platform are Pay-per-minute functionality and Click & Talk Usability,
-              both facilitated by a friendly Defi Farmer's market - a place to interact with the whole crypto community from one location.
-              It sounds complicated but TalkEarn Simplifies monetization of knowledge and experience in the Crypto Industry.
+              both facilitated by a friendly Defi Farmer's market - a place to interact with the whole crypto community
+              from one location.
+              It sounds complicated but TalkEarn Simplifies monetization of knowledge and experience in the Crypto
+              Industry.
               <br><br>
               Our whitepaper is now released, take a look!
             </div>
@@ -70,8 +94,10 @@
               </div>
               <div class="Subheading-4 has-text is-white">Professional Traders</div>
               <div class="Paragraph-4 has-text is-paragraph-main is-white">
-                Core users, who are well-versed in Crypto, and are willing to earn money for their knowledge and experience.
-                The more knowledge and experience they have, the stronger their community standing becomes, and their visibility
+                Core users, who are well-versed in Crypto, and are willing to earn money for their knowledge and
+                experience.
+                The more knowledge and experience they have, the stronger their community standing becomes, and their
+                visibility
                 and influence over the community, as they earn more TET tokens, using Pay-per-minute functionality.
               </div>
             </div>
@@ -83,9 +109,12 @@
               </div>
               <div class="Subheading-4 has-text is-white">Crypto Beginners</div>
               <div class="Paragraph-4 has-text is-paragraph-main is-white">
-                Crypto beginners are users who are looking for opportunities to invest and professional guidance and consultancy services.
-                They get full access to professional information about Crypto in one place, to the list of professional traders and investors,
-                TALK2EARN technology, and WebRTC features, allowing them to benefit from real-time Pay-per-minute functionality.
+                Crypto beginners are users who are looking for opportunities to invest and professional guidance and
+                consultancy services.
+                They get full access to professional information about Crypto in one place, to the list of professional
+                traders and investors,
+                TALK2EARN technology, and WebRTC features, allowing them to benefit from real-time Pay-per-minute
+                functionality.
               </div>
             </div>
             <div class="Section-4-3 has-text is-centered">
@@ -94,9 +123,12 @@
               </div>
               <div class="Subheading-4 has-text is-white">Partners & Community</div>
               <div class="Paragraph-4 has-text is-paragraph-main is-white">
-                Soon after the TalkEarn Platform goes live, we’ll expose it to our Platform's Partners (i.e., Exchanges, Launchpads, Projects, etc.),
-                eager to grab the attention of our impressive community by launching promotions (visible banners on homepage,
-                inside the users’ dashboard, articles, etc.). Additionally, our Community Users can earn community merit and tokens,
+                Soon after the TalkEarn Platform goes live, we’ll expose it to our Platform's Partners (i.e., Exchanges,
+                Launchpads, Projects, etc.),
+                eager to grab the attention of our impressive community by launching promotions (visible banners on
+                homepage,
+                inside the users’ dashboard, articles, etc.). Additionally, our Community Users can earn community merit
+                and tokens,
                 the benefit of airdrops, giveaways, and a Yearly lottery.
               </div>
             </div>
@@ -105,8 +137,10 @@
         <section class="Section-6" id="tokens">
           <div class="Heading has-text is-white is-heading is-large">Meet The Tokens</div>
           <div class="Section-6-hero has-text is-paragraph-main is-white">
-            <div class="image" style="background-image:url('/landing/Banner_MeetTaken_squareImage_Desktop.png')" v-if="!$mobileDetect.mobile()"></div>
-            <div class="image" style="background-image:url('/landing/Banner_MeetTaken_squareImage_Mobile.png')" v-if="$mobileDetect.mobile()"></div>
+            <div class="image" style="background-image:url('/landing/Banner_MeetTaken_squareImage_Desktop.png')"
+                 v-if="!$mobileDetect.mobile()"></div>
+            <div class="image" style="background-image:url('/landing/Banner_MeetTaken_squareImage_Mobile.png')"
+                 v-if="$mobileDetect.mobile()"></div>
 
           </div>
           <div class="Section-6-main">
@@ -128,14 +162,18 @@
                     <v-tab-item :value="'tab-' + 1">
                       <v-card flat>
                         <v-card-text>
-                          <b>$TET token</b>: a token used for payment of services. The token can be earned as a reward for platform usage
-                          (cashback from acquired pricing plans, time spent in calls, etc.) that can also be staked to accelerate earnings.
+                          <b>$TET token</b>: a token used for payment of services. The token can be earned as a reward
+                          for platform usage
+                          (cashback from acquired pricing plans, time spent in calls, etc.) that can also be staked to
+                          accelerate earnings.
                           <br/>
                           <b>TALKEARN PLATFORM</b>: an ecosystem for Crypto Investors and Personal Dashboard
                           <br/>
-                          <b>TalkEarn Platform Vault</b>: software wallet that allows users to store their rewards (TET tokens),
+                          <b>TalkEarn Platform Vault</b>: software wallet that allows users to store their rewards (TET
+                          tokens),
                           stake them for additional TET token earnings, and use them for payment of services.
-                          TET tokens generated through the TalkEarn platform are held in each user's TalkEarn Platform Vault,
+                          TET tokens generated through the TalkEarn platform are held in each user's TalkEarn Platform
+                          Vault,
                           which also supports seamless payments to various Platform services.
                         </v-card-text>
                       </v-card>
@@ -146,11 +184,13 @@
                           <b>The TET token</b> is used as a reward for platform users, as well as payment
                           for various services within the TalkEarn Platform ecosystem.
                           <br/>
-                          <b>Stake $TET</b>. Community members holding $TET tokens will have access to stake $TET tokens,
+                          <b>Stake $TET</b>. Community members holding $TET tokens will have access to stake $TET
+                          tokens,
                           to get rewarded (APY 5 -15% depending on liquidity pool). Additionally, users who stake
                           a certain amount of $TET tokens for a certain period will participate in the Yearly lottery.
                           <br/>
-                          <b>Community rewards</b>. Community members holding $TET tokens will be eligible to take part in different contests
+                          <b>Community rewards</b>. Community members holding $TET tokens will be eligible to take part
+                          in different contests
                           such as whitelisting and will have a priority for
                           capped events and giveaways from TALKEARN PLATFORM and its partners.
                           This includes certain rewards (gifts, airdrops, prizes, etc.) and many other things.
@@ -160,21 +200,24 @@
                   </v-tabs-items>
                 </div>
               </div>
-<!--              <div class="">-->
-<!--                <form-area :title="'Join Us Now'"></form-area>-->
-<!--              </div>-->
+              <!--              <div class="">-->
+              <!--                <form-area :title="'Join Us Now'"></form-area>-->
+              <!--              </div>-->
             </div>
           </div>
         </section>
         <section class="Section-7">
           <div class="Section-7-main">
             <div class="Section-7-hero">
-              <div class="image" style="background-image:url('/landing/Banner_Monetization_section.png')" v-if="!$mobileDetect.mobile()"></div>
-              <div class="image" style="background-image:url('/landing/Banner_Monetization_section_mobile.png')" v-if="$mobileDetect.mobile()"></div>
+              <div class="image" style="background-image:url('/landing/Banner_Monetization_section.png')"
+                   v-if="!$mobileDetect.mobile()"></div>
+              <div class="image" style="background-image:url('/landing/Banner_Monetization_section_mobile.png')"
+                   v-if="$mobileDetect.mobile()"></div>
             </div>
             <div class="Heading has-text is-white is-heading is-large">TalkEarn Platform Monetisation System</div>
             <div class="Paragraph has-text is-white is-paragraph-main">
-              We’re building the DAO of the future through collective intelligence, collective exchange of knowledge and experience,
+              We’re building the DAO of the future through collective intelligence, collective exchange of knowledge and
+              experience,
               and meritocratic-based ecosystems that reward users based on the benefit they bring the community.
             </div>
             <div class="Section-7-accordion">
@@ -183,9 +226,12 @@
                   <v-expansion-panel>
                     <v-expansion-panel-header>Pay-per-minute functionality</v-expansion-panel-header>
                     <v-expansion-panel-content>
-                      So many smart people spend hours each day crawling through treasure troves of information, on Telegram,
-                      private WhatsApp and Discord groups, subreddits, newsletters, YouTube, and more, sourcing knowledge, tips, and trading insights.
-                      What if there was a way to harness all this information and pay for it just as much as the number of minutes used to get
+                      So many smart people spend hours each day crawling through treasure troves of information, on
+                      Telegram,
+                      private WhatsApp and Discord groups, subreddits, newsletters, YouTube, and more, sourcing
+                      knowledge, tips, and trading insights.
+                      What if there was a way to harness all this information and pay for it just as much as the number
+                      of minutes used to get
                       from professional traders and investors? Now there is.
                     </v-expansion-panel-content>
                   </v-expansion-panel>
@@ -194,14 +240,17 @@
                     <v-expansion-panel-content>
                       Every professional trader/investor will define his pricing policy
                       (price-per-minute/ message, minutes/ messages amount free-of-charge for new coming clients).
-                      Additionally, there will be available pricing plans for the call initiators, to allow them to save their money.
+                      Additionally, there will be available pricing plans for the call initiators, to allow them to save
+                      their money.
                     </v-expansion-panel-content>
                   </v-expansion-panel>
                   <v-expansion-panel>
                     <v-expansion-panel-header>Boosted articles and Ads</v-expansion-panel-header>
                     <v-expansion-panel-content>
-                      Professional traders/investors will have the opportunity to boost their articles and profiles, to get higher visibility on the Platform.
-                      Partners(i.e. Exchanges, Launchpads, Projects, and others) will have the opportunity to launch promotions and display Ads on the Platform,
+                      Professional traders/investors will have the opportunity to boost their articles and profiles, to
+                      get higher visibility on the Platform.
+                      Partners(i.e. Exchanges, Launchpads, Projects, and others) will have the opportunity to launch
+                      promotions and display Ads on the Platform,
                       to grab the attention of our impressive community
                     </v-expansion-panel-content>
                   </v-expansion-panel>
@@ -213,11 +262,13 @@
         </section>
         <section class="Section-8" id="about">
           <div class="Section-8-hero">
-            <div class="image" style="background-image:url('/landing/Banner_ShareKnowledge_section.png')" v-if="!$mobileDetect.mobile()"></div>
-            <div class="image" style="background-image:url('/landing/Banner_ShareKnowledge_section_mobile.png')" v-if="$mobileDetect.mobile()"></div>
+            <div class="image" style="background-image:url('/landing/Banner_ShareKnowledge_section.png')"
+                 v-if="!$mobileDetect.mobile()"></div>
+            <div class="image" style="background-image:url('/landing/Banner_ShareKnowledge_section_mobile.png')"
+                 v-if="$mobileDetect.mobile()"></div>
           </div>
           <div class="Section-8-main">
-            <div class="Heading has-text is-white is-heading is-large" >Share Your Knowledge</div>
+            <div class="Heading has-text is-white is-heading is-large">Share Your Knowledge</div>
             <div class="Section-8-tabs has-text is-paragraph-main is-white">
               Less barriers to share Your Knowledge and Experience. Create Your own page on Our Platform and start
               earning by consulting young investors and traders. Get paid instantly!
@@ -239,7 +290,8 @@
               <a class="Pollen-telegram" target="_blank" href="https://t.me/talkearn_official">
                 <img src="/landing/telegram-icon-white-transparent.svg" width="40px" alt="join us on telegram">
               </a>
-              <a class="Pollen-discord medium-icon" target="_blank" href="https://talkearn.medium.com/" style="width: 52px;">
+              <a class="Pollen-discord medium-icon" target="_blank" href="https://talkearn.medium.com/"
+                 style="width: 52px;">
                 <img src="/landing/Medium-Logo.svg" alt="medium" style="height: 27px;">
               </a>
             </div>
@@ -292,6 +344,7 @@ export default {
   components: {headerArea, footerArea, experts, formArea},
   data() {
     return {
+      youtubeLink: false,
       tab: false,
       success: false,
       form: {

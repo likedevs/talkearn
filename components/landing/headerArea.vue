@@ -20,7 +20,10 @@
              href="https://docs.talkearn.app">
             <div class="Button-caption">Whitepaper</div>
           </a>
-          <formArea></formArea>
+          <a rel="noopener noreferrer" target="_blank" class="Button Button--white  button"
+             href="https://www.canva.com/design/DAE6CHg3TtM/wYqkGERgcbn6umLn0fkepQ/view?utm_content=DAE6CHg3TtM&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton">
+            <div class="Button-caption">Pitch Deck</div>
+          </a>
         </div>
         <div class="Pollen-desktop-icons">
           <a class="Pollen-twitter" target="_blank" href="https://twitter.com/TalkEarn">
