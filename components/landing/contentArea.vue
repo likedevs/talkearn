@@ -22,14 +22,14 @@
 
           <iframe width="860" height="480" style="margin: 0 auto 50px; border: none"
                   v-if="!$mobileDetect.mobile()"
-                  src="https://www.youtube.com/embed/xceENnAwE-0?autoplay=1"
+                  src="https://www.youtube.com/embed/8YvKF1_UqzA?autoplay=1"
                   allow='autoplay'
                   allowfullscreen>
           </iframe>
 
           <iframe width="320" height="330" style="margin: 0 auto 50px; border: none"
                   v-if="$mobileDetect.mobile()"
-                  src="https://www.youtube.com/embed/xceENnAwE-0?autoplay=1"
+                  src="https://www.youtube.com/embed/8YvKF1_UqzA?autoplay=1"
                   allow='autoplay; encrypted-media'
                   allowfullscreen>
           </iframe>
