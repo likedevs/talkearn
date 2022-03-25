@@ -6,14 +6,14 @@
           <img class="Hero-1" src="/landing/Banner-Main-Right.png" alt="TalkEarn Platform">
           <div class="Section-1-main">
             <div class="Heading has-text is-white is-heading is-large">
-              An Ecosystem for Crypto Investors. Built on Blockchain.
+              A Crypto Experts Marketplace. Built on Blockchain.
             </div>
             <div class="Paragraph-1 has-text is-white is-paragraph-main">
-              A first decentralized platform, connecting crypto-traders
-              and investors in one ecosystem built on Talk2Earn technology.
+              A first decentralized platform, connecting crypto anthusiasts
+              and experts in one ecosystem built on Talk2Earn technology.
             </div>
             <form-area :title="'Join Us'"></form-area>
-            <div class="Sidenote">*Get whitelisted to use the platform on launch day.</div>
+            <div class="Sidenote">*Get whitelisted to get TET tokens on launch day.</div>
           </div>
         </section>
 
@@ -43,16 +43,16 @@
           </div>
           <div class="Section-2-main">
             <div class="Heading has-text is-white is-heading is-large">
-              Join Talk2Earn Ecosystem
+              Join TalkEarn Platform
             </div>
             <div class="Paragraph-2 has-text is-paragraph-main is-white">
               TalkEarn is a state-of-the-art decentralized ecosystem utilizing sophisticated Talk2Earn and webRTC
               technologies to
-              connect crypto traders and investors, allowing them to earn money for their knowledge and experience.
+              connect crypto enthusiasts to experts, allowing them to earn money for their knowledge and experience.
               The core features powered by the platform are Pay-per-minute functionality and Click & Talk Usability,
-              both facilitated by a friendly Defi Farmer's market - a place to interact with the whole crypto community
-              from one location.
-              It sounds complicated but TalkEarn Simplifies monetization of knowledge and experience in the Crypto
+              both facilitated by a friendly interface - a place where any crypto enthusiast can find professional mentors on any topic in crypto.
+              And receive a live consultation or service instantly.
+              It sounds complicated but TalkEarn simplifies monetization of knowledge and experience in the Crypto
               Industry.
               <br><br>
               Our whitepaper is now released, take a look!
@@ -92,7 +92,7 @@
               <div class="Hero-4">
                 <img alt="traders hero" src="/landing/Ecosystem-section-1st-icon.svg">
               </div>
-              <div class="Subheading-4 has-text is-white">Professional Traders</div>
+              <div class="Subheading-4 has-text is-white">Professional Experts</div>
               <div class="Paragraph-4 has-text is-paragraph-main is-white">
                 Core users, who are well-versed in Crypto, and are willing to earn money for their knowledge and
                 experience.
@@ -107,14 +107,13 @@
                   mdi-progress-question
                 </v-icon>
               </div>
-              <div class="Subheading-4 has-text is-white">Crypto Beginners</div>
+              <div class="Subheading-4 has-text is-white">Crypto Enthusiasts</div>
               <div class="Paragraph-4 has-text is-paragraph-main is-white">
-                Crypto beginners are users who are looking for opportunities to invest and professional guidance and
+                Crypto Enthusiasts are users who are looking for opportunities to invest and professional guidance and
                 consultancy services.
                 They get full access to professional information about Crypto in one place, to the list of professional
-                traders and investors,
-                TALK2EARN technology, and WebRTC features, allowing them to benefit from real-time Pay-per-minute
-                functionality.
+                experts,
+                TALK2EARN technology, and WebRTC features, allowing them to benefit from real-time live consultancy.
               </div>
             </div>
             <div class="Section-4-3 has-text is-centered">
@@ -124,12 +123,12 @@
               <div class="Subheading-4 has-text is-white">Partners & Community</div>
               <div class="Paragraph-4 has-text is-paragraph-main is-white">
                 Soon after the TalkEarn Platform goes live, we’ll expose it to our Platform's Partners (i.e., Exchanges,
-                Launchpads, Projects, etc.),
+                Launchpads, Blockchains, etc.),
                 eager to grab the attention of our impressive community by launching promotions (visible banners on
                 homepage,
                 inside the users’ dashboard, articles, etc.). Additionally, our Community Users can earn community merit
                 and tokens,
-                the benefit of airdrops, giveaways, and a Yearly lottery.
+                the benefit of airdrops, giveaways, and other bonuses.
               </div>
             </div>
           </div>
@@ -156,7 +155,7 @@
                   >
                     <v-tabs-slider></v-tabs-slider>
                     <v-tab href="#tab-1">Token Model</v-tab>
-                    <v-tab href="#tab-2">Token Utility</v-tab>
+                    <v-tab href="#tab-2">Utility Token</v-tab>
                   </v-tabs>
                   <v-tabs-items v-model="tab">
                     <v-tab-item :value="'tab-' + 1">
@@ -167,13 +166,12 @@
                           (cashback from acquired pricing plans, time spent in calls, etc.) that can also be staked to
                           accelerate earnings.
                           <br/>
-                          <b>TALKEARN PLATFORM</b>: an ecosystem for Crypto Investors and Personal Dashboard
+                          <b>TALKEARN PLATFORM</b>: an ecosystem for Crypto Enthusiasts and Experts and Personal Dashboard
                           <br/>
-                          <b>TalkEarn Platform Vault</b>: software wallet that allows users to store their rewards (TET
+                          <b>TalkEarn Platform Staking Pools</b>: pools with staking periods and APYs that allows users to store their rewards (TET
                           tokens),
                           stake them for additional TET token earnings, and use them for payment of services.
-                          TET tokens generated through the TalkEarn platform are held in each user's TalkEarn Platform
-                          Vault,
+                          TET tokens generated through the TalkEarn platform are held in each user's wallet,
                           which also supports seamless payments to various Platform services.
                         </v-card-text>
                       </v-card>
@@ -182,16 +180,16 @@
                       <v-card flat>
                         <v-card-text>
                           <b>The TET token</b> is used as a reward for platform users, as well as payment
-                          for various services within the TalkEarn Platform ecosystem.
+                          for live consultancy and services provided within the TalkEarn Platform ecosystem.
                           <br/>
                           <b>Stake $TET</b>. Community members holding $TET tokens will have access to stake $TET
                           tokens,
-                          to get rewarded (APY 5 -15% depending on liquidity pool). Additionally, users who stake
-                          a certain amount of $TET tokens for a certain period will participate in the Yearly lottery.
+                          to get rewarded (APY 5 -15% depending on staking pool). Additionally, users who stake
+                          a certain amount of $TET tokens for a certain period will be eligible to recieve additional rewards.
                           <br/>
                           <b>Community rewards</b>. Community members holding $TET tokens will be eligible to take part
                           in different contests
-                          such as whitelisting and will have a priority for
+                          such as token airdrops and will have a priority for
                           capped events and giveaways from TALKEARN PLATFORM and its partners.
                           This includes certain rewards (gifts, airdrops, prizes, etc.) and many other things.
                         </v-card-text>
@@ -231,14 +229,13 @@
                       private WhatsApp and Discord groups, subreddits, newsletters, YouTube, and more, sourcing
                       knowledge, tips, and trading insights.
                       What if there was a way to harness all this information and pay for it just as much as the number
-                      of minutes used to get
-                      from professional traders and investors? Now there is.
+                      of minutes used to get it from professional experts? Now there is.
                     </v-expansion-panel-content>
                   </v-expansion-panel>
                   <v-expansion-panel>
                     <v-expansion-panel-header>Pricing Plans</v-expansion-panel-header>
                     <v-expansion-panel-content>
-                      Every professional trader/investor will define his pricing policy
+                      Every professional expert will define his pricing policy
                       (price-per-minute/ message, minutes/ messages amount free-of-charge for new coming clients).
                       Additionally, there will be available pricing plans for the call initiators, to allow them to save
                       their money.
@@ -247,9 +244,9 @@
                   <v-expansion-panel>
                     <v-expansion-panel-header>Boosted articles and Ads</v-expansion-panel-header>
                     <v-expansion-panel-content>
-                      Professional traders/investors will have the opportunity to boost their articles and profiles, to
+                      Professional eperts will have the opportunity to boost their articles and profiles, to
                       get higher visibility on the Platform.
-                      Partners(i.e. Exchanges, Launchpads, Projects, and others) will have the opportunity to launch
+                      Partners(i.e. Exchanges, Launchpads, Blockchains, and others) will have the opportunity to launch
                       promotions and display Ads on the Platform,
                       to grab the attention of our impressive community
                     </v-expansion-panel-content>
@@ -271,7 +268,7 @@
             <div class="Heading has-text is-white is-heading is-large">Share Your Knowledge</div>
             <div class="Section-8-tabs has-text is-paragraph-main is-white">
               Less barriers to share Your Knowledge and Experience. Create Your own page on Our Platform and start
-              earning by consulting young investors and traders. Get paid instantly!
+              earning by consulting crypto enthusiasts. Get paid instantly!
             </div>
           </div>
         </section>
