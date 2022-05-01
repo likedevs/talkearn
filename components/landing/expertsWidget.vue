@@ -1,6 +1,6 @@
 <template>
   <section class="experts">
-    <v-container>
+    <v-container style="padding: 40px">
       <v-row align="center" justify="center">
         <v-col
             v-for="(item, i) in experts"

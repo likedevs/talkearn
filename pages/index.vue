@@ -5,7 +5,7 @@
 
     <content-area></content-area>
 
-    <footer-area></footer-area>
+<!--    <footer-area></footer-area>-->
   </div>
 
 </template>

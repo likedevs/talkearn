@@ -1,6 +1,7 @@
 const colors = require('vuetify/es5/util/colors').default
 
 module.exports = {
+    ssr: false,
     telemetry: false,
     /*
     ** Headers of the page
@@ -83,8 +84,8 @@ module.exports = {
             light: true,
             themes: {
                 light: {
-                    primaryDark: '#0A072C',
-                    primary: '#161746',
+                    primaryDark: '#1F2131',
+                    primary: '#1F2131',
                     accent: '#4EFF00', //green
                     secondary: '#ff0008',
                     info: colors.teal.lighten1,

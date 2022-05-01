@@ -37,6 +37,7 @@
         "node-cron": "^3.0.0",
         "nuxt": "^2.0.0",
         "nuxt-mobile": "^1.0.1",
+        "nuxt-video-player": "^1.0.17",
         "passport": "^0.4.1",
         "passport-jwt": "^4.0.0",
         "passport-local": "^1.0.0",
