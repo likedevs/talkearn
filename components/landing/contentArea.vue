@@ -4,8 +4,8 @@
       <div class="video-wrapp">
         <video id="video" ref="video" src="TET-metaverse-video-blockchains-fin.mp4"
                autoplay="true"
-               controls
                muted
+               playsinline
                loop>
         </video>
       </div>
@@ -70,15 +70,7 @@
             </div>
             <div class="introducing-wrapp">
               <div class="introducing-item">
-                <svg width="187" height="165" viewBox="0 0 187 165" fill="none"
-                     xmlns="http://www.w3.org/2000/svg">
-                  <path
-                      d="M43.276 164.779H142.983C143.456 164.487 143.929 164.194 144.402 163.902C187.322
-                      136.744 199.177 81.3512 170.871 40.1643C142.566 -1.02255 84.8238 -12.3813 41.9044
-                      14.7688C-1.01494 41.9189 -12.8617 97.3196 15.4357 138.506C22.9272 149.403 32.48 158.215
-                      43.276 164.779Z"
-                      fill="#BAD4F4"/>
-                </svg>
+                <img :src="metaVer1SNG" alt="">
                 <div class="item-inside">
                   <h5>Virtual workspaces</h5>
                   <p>
@@ -88,15 +80,7 @@
                 </div>
               </div>
               <div class="introducing-item mid-item">
-                <svg width="187" height="165" viewBox="0 0 187 165" fill="none"
-                     xmlns="http://www.w3.org/2000/svg">
-                  <path
-                      d="M43.276 164.779H142.983C143.456 164.487 143.929 164.194 144.402 163.902C187.322
-                      136.744 199.177 81.3512 170.871 40.1643C142.566 -1.02255 84.8238 -12.3813 41.9044
-                      14.7688C-1.01494 41.9189 -12.8617 97.3196 15.4357 138.506C22.9272 149.403 32.48 158.215
-                      43.276 164.779Z"
-                      fill="#BAD4F4"/>
-                </svg>
+                <img :src="metaVer2SNG" alt="">
                 <div class="item-inside">
                   <h5>Experts profiles</h5>
                   <p>The users will be able to read the experts’ profiles (with information about them,
@@ -104,15 +88,7 @@
                 </div>
               </div>
               <div class="introducing-item">
-                <svg width="187" height="165" viewBox="0 0 187 165" fill="none"
-                     xmlns="http://www.w3.org/2000/svg">
-                  <path
-                      d="M43.276 164.779H142.983C143.456 164.487 143.929 164.194 144.402 163.902C187.322
-                      136.744 199.177 81.3512 170.871 40.1643C142.566 -1.02255 84.8238 -12.3813 41.9044
-                      14.7688C-1.01494 41.9189 -12.8617 97.3196 15.4357 138.506C22.9272 149.403 32.48 158.215
-                      43.276 164.779Z"
-                      fill="#BAD4F4"/>
-                </svg>
+                <img :src="metaVer3SNG" alt="">
                 <div class="item-inside">
                   <h5>Tutoring service</h5>
                   <p>Experts who are online can be contacted instantly through VR experience. Those who are
@@ -419,10 +395,17 @@ export default {
     return {
       section1SVG: require('@/static/svg/section1.svg'),
       section2SVG: require('@/static/svg/section2.svg'),
+
       eco1SVG: require('@/static/svg/eco1.svg'),
       eco2SVG: require('@/static/svg/eco2.svg'),
       eco3SVG: require('@/static/svg/eco3.svg'),
+
       tetSVG: require('@/static/svg/tet.svg'),
+
+      metaVer1SNG: require('@/static/svg/Virtual Reality Meeting.svg'),
+      metaVer2SNG: require('@/static/svg/TND_M454_010.svg'),
+      metaVer3SNG: require('@/static/svg/HD_M352_04.svg'),
+
       logo1: require('@/static/svg/logo1.svg'),
       logo2: require('@/static/svg/logo2.svg'),
       logo3: require('@/static/svg/logo3.svg'),

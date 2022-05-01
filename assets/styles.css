@@ -2522,7 +2522,7 @@ html {
     box-sizing: border-box;
     border-radius: 24px;
     padding: 63px;
-    margin-top: -25px;
+    margin-top: -70px;
 }
 
 .item-inside h5 {
@@ -2557,7 +2557,7 @@ html {
 }
 
 .introducing-item img {
-    height: 280px;
+    height: 255px;
     width: 100%;
 }
 
