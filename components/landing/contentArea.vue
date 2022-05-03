@@ -2,7 +2,7 @@
   <div id="root">
     <div class="AppRoot">
       <div class="video-wrapp">
-        <video id="video" ref="video" src="TET-metaverse-video-blockchains-fin.mp4"
+        <video id="video" ref="video" src="TET-Metaverse-video-compressed-lowest.mp4"
                autoplay="true"
                muted
                playsinline

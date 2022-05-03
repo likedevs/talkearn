@@ -2920,3 +2920,8 @@ html {
         margin-right: 16px;
     }
 }
+
+.v-dialog--fullscreen {
+    left: auto !important;
+    right: 0 !important;
+}

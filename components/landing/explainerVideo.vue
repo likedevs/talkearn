@@ -28,7 +28,7 @@
         </span>
       </v-card-title>
       <v-card-text>
-        <video id="video" ref="video" src="TET-explainer-video-without-fin-adv.mp4" controls playsinline>
+        <video id="video" ref="video" src="TET-Explainer-video-compressed-lower.mp4" controls playsinline>
         </video>
       </v-card-text>
     </v-card>
