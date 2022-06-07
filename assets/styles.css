@@ -2701,7 +2701,7 @@ html {
         overflow: hidden;
     }
 
-    .video-wrapp {
+    .video-wrapp1 {
         margin-top: 82px !important;
     }
 
@@ -2922,6 +2922,6 @@ html {
 }
 
 .v-dialog--fullscreen {
-    left: auto !important;
-    right: 0 !important;
+    /*left: auto !important;*/
+    /*right: 0 !important;*/
 }

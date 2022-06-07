@@ -1,7 +1,7 @@
 <template>
   <div id="root">
     <div class="AppRoot">
-      <div class="video-wrapp">
+      <div class="video-wrapp1">
         <video id="video" ref="video" src="TET-Metaverse-video-compressed-lowest.mp4"
                autoplay="true"
                muted
@@ -467,11 +467,11 @@ export default {
   text-align: center;
 }
 
-.video-wrapp {
+.video-wrapp1 {
   margin-top: 121px;
 }
 
-.video-wrapp video {
+.video-wrapp1 video {
   width: 100%;
 }
 

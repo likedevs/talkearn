@@ -320,10 +320,10 @@ export default {
     .video-dialog-window {
         width: 70% !important;
         height: calc(100vh - 128px);
-        right: 30%;
+        right: 30% !important;
         bottom: 0;
         top: auto;
-        left: auto;
+        left: auto !important;
         overflow: hidden;
     }
     .call-area-out{

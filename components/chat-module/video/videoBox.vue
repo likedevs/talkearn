@@ -24,6 +24,10 @@ export default {
 </script>
 
 <style lang="scss">
+    .video-dialog-window {
+      right: auto !important;
+      left: 0 !important;
+    }
     .video {
         width: 100%;
         height: calc(100vh - 128px - 70px) !important;
