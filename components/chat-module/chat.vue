@@ -515,10 +515,10 @@ export default {
 
 .chat-dialog-window {
   width: 30% !important;
-  height: calc(100vh - 128px);
+  height: calc(100vh - 128px) !important;
   right: 0 !important;
-  bottom: 0;
-  top: auto;
+  bottom: 0 !important;
+  top: auto !important;
   left: auto !important;
   background-color: #FFF !important;
   color: #000;
