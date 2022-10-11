@@ -3099,7 +3099,33 @@ html {
     width: 25%;
     text-align: center;
     padding: 30px;
+    position: relative;
 }
+.awards-area .awards-area-item:after {
+    position: absolute;
+    content: "";
+    height: 130%;
+    width: 40px;
+    left: 20px;
+    top: -15%;
+    background-image: url("/landing/Group 121.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.awards-area .awards-area-item:before {
+    position: absolute;
+    content: "";
+    height: 130%;
+    width: 40px;
+    right: 20px;
+    top: -15%;
+    background-image: url("/landing/Group 120.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
 .heading-customize {
     font-weight: 700;
     font-size: 44px;
