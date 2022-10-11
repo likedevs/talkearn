@@ -8,32 +8,20 @@
         </a>
 
         <div class="Pollen-desktop-links">
-          <a href="#join" class="Nav-link first">Talk2Earn</a>
-          <a href="#team" class="Nav-link second">Team</a>
-          <a href="#ecosystem" class="Nav-link third">EcoSystem</a>
-          <a href="#tokens" class="Nav-link fourth">Tokens</a>
-          <a href="#about" class="Nav-link first">About</a>
+          <a href="#features" class="Nav-link first">Features</a>
+          <a href="#use-case" class="Nav-link second">Use case</a>
+          <a href="#team" class="Nav-link third">Team</a>
+          <a href="#roadmap" class="Nav-link fourth">Roadmap</a>
         </div>
 
         <div class="Pollen-desktop-buttons">
-          <a rel="noopener noreferrer" target="_blank" class="Button Button--white  button"
+          <a rel="noopener noreferrer" target="_blank" class="button-gradient"
              href="https://docs.talkearn.app">
-            <div class="Button-caption">Whitepaper</div>
+            Whitepaper
           </a>
-          <a rel="noopener noreferrer" target="_blank" class="Button Button--white  button"
+          <a rel="noopener noreferrer" target="_blank" class="button-gradient"
              href="https://www.canva.com/design/DAE6CHg3TtM/wYqkGERgcbn6umLn0fkepQ/view?utm_content=DAE6CHg3TtM&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton">
             <div class="Button-caption">Pitch Deck</div>
-          </a>
-        </div>
-        <div class="Pollen-desktop-icons">
-          <a class="Pollen-twitter" target="_blank" href="https://twitter.com/TalkEarn">
-            <img src="/landing/twitter-icon-white-transparent-24.svg" alt="twitter">
-          </a>
-          <a class="Pollen-telegram" target="_blank" href="https://t.me/talkearn_official">
-            <img src="/landing/telegram-icon-white-transparent.svg" alt="telegram">
-          </a>
-          <a class="Pollen-discord medium-icon" target="_blank" href="https://talkearn.medium.com/">
-            <img src="/landing/Medium-Logo.svg" alt="medium" style="height: 15px;">
           </a>
         </div>
       </header>
@@ -48,51 +36,25 @@
         </div>
 
         <div class="Nav">
-          <a href="#join" class="Nav-link" @click="showMenu()">Talk2Earn</a>
+          <a href="#features" class="Nav-link" @click="showMenu()">Features</a>
+          <a href="#use-case" class="Nav-link" @click="showMenu()">Use case</a>
           <a href="#team" class="Nav-link" @click="showMenu()">Team</a>
-          <a href="#ecosystem" class="Nav-link" @click="showMenu()">EcoSystem</a>
-          <a href="#tokens" class="Nav-link" @click="showMenu()">Tokens</a>
-          <a href="#about" class="Nav-link" @click="showMenu()">About</a>
+          <a href="#roadmap" class="Nav-link" @click="showMenu()">Roadmap</a>
+
           <div class="Nav-link button" @click="showMenu()">
-<!--            <formArea></formArea>-->
             <div class="Pollen-desktop-buttons">
-              <a rel="noopener noreferrer" target="_blank" class="Button Button--white  button"
+              <a rel="noopener noreferrer" target="_blank" class="button-gradient"
                  href="https://docs.talkearn.app">
-                <div class="Button-caption">Whitepaper</div>
+                Whitepaper
               </a>
-              <a rel="noopener noreferrer" target="_blank" class="Button Button--white  button"
+              <a rel="noopener noreferrer" target="_blank" class="button-gradient"
                  href="https://www.canva.com/design/DAE6CHg3TtM/wYqkGERgcbn6umLn0fkepQ/view?utm_content=DAE6CHg3TtM&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton">
                 <div class="Button-caption">Pitch Deck</div>
               </a>
             </div>
           </div>
         </div>
-        <div :class="['Nav-icons', hidden]">
-
-          <a class="Pollen-twitter" target="_blank" href="https://twitter.com/TalkEarn">
-            <img src="/landing/twitter-icon-white-transparent-24.svg" alt="twitter">
-          </a>
-          <a class="Pollen-telegram" target="_blank" href="https://t.me/talkearn_official">
-            <img src="/landing/telegram-icon-white-transparent.svg" alt="telegram">
-          </a>
-          <a class="Pollen-discord medium-icon" target="_blank" href="https://github.com/talkearn/talkearn">
-            <img src="/landing/github-logo.svg" alt="medium" style="height: 15px;">
-          </a>
-          <a class="Pollen-discord medium-icon" target="_blank" href="https://talkearn.medium.com/">
-            <img src="/landing/Medium-Logo.svg" alt="medium" style="height: 15px; width: auto !important;">
-          </a>
-
-<!--          <a class="Pollen-telegram" target="_blank" href="https://t.me/talkearn_official">-->
-<!--            <img src="https://pollen.id/static/media/telegram.451c86f3.svg" alt="join us on telegram">-->
-<!--          </a>-->
-<!--          <a class="Pollen-twitter" target="_blank" href="https://twitter.com/TalkEarn">-->
-<!--            <img src="https://pollen.id/static/media/twitter.a6815caa.svg" alt="follow us on twitter">-->
-<!--          </a>-->
-<!--          <a class="Pollen-discord medium-icon" target="_blank" href="https://talkearn.medium.com/">-->
-<!--            <img src="/Medium-Logo.svg" alt="medium" style="height: 15px;">-->
-<!--          </a>-->
-
-        </div>
+        <div :class="['Nav-icons', hidden]"></div>
       </header>
     </div>
   </div>

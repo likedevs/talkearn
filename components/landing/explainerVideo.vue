@@ -17,7 +17,7 @@
         <svg width="29" height="30" viewBox="0 0 29 30" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
               d="M27.5182 12.257C29.3543 13.1342 29.4509 15.7096 27.6846 16.6951L5.29621 29.1869C3.66519 30.097 1.63638 28.9497 1.56618 27.0776L0.680851 3.46719C0.610653 1.5951 2.54895 0.328487 4.24447 1.13849L27.5182 12.257Z"
-              fill="#2945FF"/>
+              fill="#FFFFFF"/>
         </svg>
       </button>
     </template>
@@ -28,7 +28,7 @@
         </span>
       </v-card-title>
       <v-card-text>
-        <video id="video" ref="video" src="TET-Explainer-video-compressed-lower.mp4" controls playsinline>
+        <video id="video" ref="video" src="TET-explainer-video-compressed-v1.mp4" controls playsinline>
         </video>
       </v-card-text>
     </v-card>

@@ -5,7 +5,7 @@
   >
     <template v-slot:activator="{ on, attrs }">
       <a rel="noopener noreferrer"
-         class="Button Button--white  button"
+         class="Button Button--white button btn-gradient"
          v-bind="attrs"
          v-on="on">
         <div class="Button-caption">{{ title ? title : 'Get Whitelisted' }}</div>
@@ -147,4 +147,14 @@ export default {
   margin-left: 10%;
 }
 
+.btn-gradient {
+  background-image: linear-gradient(to bottom, #c553f8, #a855f9, #8857fa, #6158f8, #1b59f6) !important;
+}
+.btn-gradient div {
+  color: #FFF !important;
+}
+.video-play-btn {
+  background-image: linear-gradient(to bottom, #c553f8, #a855f9, #8857fa, #6158f8, #1b59f6) !important;
+
+}
 </style>

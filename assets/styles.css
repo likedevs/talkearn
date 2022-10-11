@@ -120,7 +120,7 @@ body {
 .Pollen-nav-desktop {
     display: grid;
     width: 100%;
-    grid-template-columns:minmax(40px, auto) [logo] 124px [links] 3fr [buttons] 2fr [icons] 1fr minmax(40px, auto)
+    grid-template-columns:minmax(40px, auto) [logo] 124px [links] 3fr [buttons] 3fr [icons] 0fr minmax(40px, auto)
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -137,12 +137,13 @@ body {
     display: flex;
     font-size: 13px;
     justify-content: center;
-    grid-column: links
+    grid-column: links;
+    padding-left: 50px;
 }
 
 .Pollen-nav-desktop .Pollen-desktop-buttons {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     grid-column: buttons
 }
@@ -150,7 +151,10 @@ body {
 .Pollen-nav-desktop .Pollen-desktop-buttons .Button {
     height: 40px;
     max-width: 115px;
-    margin: 7px
+    margin: 7px;
+    background-color: #000;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+    color: #FFF;
 }
 
 .Pollen-nav-desktop .Pollen-desktop-buttons .Button .Button-caption {
@@ -191,10 +195,10 @@ body {
     position: relative;
     top: 28px;
     text-decoration: none;
-    color: hsla(0, 0%, 100%, .6);
+    color: #FFF;
     font-style: normal;
     font-weight: 500;
-    font-size: 14px
+    font-size: 16px
 }
 
 .Pollen-nav-desktop .Nav-link .Underline {
@@ -271,7 +275,7 @@ body {
 }
 
 .Pollen-nav-mobile.is-scrolled {
-    background-color: #252525
+    background-color: #000
 }
 
 .Pollen-nav-mobile .Pollen-logo {
@@ -489,7 +493,7 @@ body {
     position: absolute;
     /*height: 100%;*/
     bottom: 0;
-    right: 0;
+    right: 1% !important;
     top: 80px;
     bottom: 0;
     width: auto;
@@ -540,7 +544,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: local;
-    background-position-x: center
+    background-position-x: center;
+    margin-top: 100px;
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -669,7 +675,7 @@ body {
     position: relative;
     padding: 90px 0;
     padding-bottom: 20px;
-    background: #121217;
+    background: #000;
 }
 
 .Home .Section-3 .Hero-3 {
@@ -931,8 +937,10 @@ body {
 }
 
 .Home .Section-6 {
-    /*padding: 80px;*/
     margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (min-width: 1920px) {
@@ -2077,10 +2085,14 @@ html {
 }
 
 .Home .has-text.is-paragraph-main {
-    padding-top: 44px;
+    padding-top: 20px;
     padding-bottom: 56px;
     font-size: 16px;
     line-height: 27px
+}
+
+.sub-heading {
+    padding-top: 20px;
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -2505,10 +2517,11 @@ html {
     justify-items: center;
     align-content: center;
     justify-content: space-between;
+    padding: 40px 0;
+    /*border: 1px solid red;*/
 }
 
 .introducing-item {
-    /*margin: 20px;*/
     min-width: 31%;
 }
 
@@ -2518,15 +2531,20 @@ html {
 
 .introducing-wrapp .item-inside {
     color: #FFF;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    /*border: 1px solid rgba(255, 255, 255, 0.1);*/
     box-sizing: border-box;
     border-radius: 24px;
-    padding: 63px;
-    margin-top: -70px;
+    padding: 40px;
+
 }
 
 .item-inside h5 {
     font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.item-inside h4 {
+    font-size: 28px;
     margin-bottom: 20px;
 }
 
@@ -2557,8 +2575,8 @@ html {
 }
 
 .introducing-item img {
-    height: 255px;
-    width: 100%;
+    /*height: 255px;*/
+    /*width: 100%;*/
 }
 
 .tokens {
@@ -2569,7 +2587,7 @@ html {
 }
 
 .Section-11 .container {
-    background-color: #3b3b3b;
+    background-color: #000;
 }
 
 .partner-list {
@@ -2577,11 +2595,21 @@ html {
     justify-items: center;
     align-content: center;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 .partner-list .partner-item {
-    /*width: 25%;*/
     text-align: center;
+    display: flex;
+    justify-items: center;
+    align-content: center;
+    max-width: 25%;
+}
+
+.partner-list .partner-item img {
+    max-width: 90%;
+    height: 80px;
+    padding: 10px;
 }
 
 .roadmap {
@@ -2630,6 +2658,25 @@ html {
     margin: 1%;
     margin-top: 50px;
     min-width: 23%;
+    position: relative;
+    z-index: 9;
+    background-color: #000;
+}
+
+.roadmap-list .roadmap-list-item:before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ca53f8;
+    border-top: none;
+    border-left: none;
+    border-radius: 20px;
+    top: 8px;
+    left: 8px;
+    z-index: 8;
+
 }
 
 .roadmap-list .roadmap-list-item ul {
@@ -2670,6 +2717,8 @@ html {
 .footer-socials {
     width: 50%;
     margin-left: 30px;
+    border-left: 1px solid #FFF;
+    padding-left: 20px;
 }
 
 .footer-logo {
@@ -2692,7 +2741,7 @@ html {
 }
 
 .image-metaverse {
-    right: -100px !important;
+    /*right: -100px !important;*/
 }
 
 @media (max-width: 891px) {
@@ -2720,62 +2769,79 @@ html {
     .introducing-wrapp {
         display: block;
     }
+
     .introducing-item {
         margin-bottom: 40px;
     }
+
     .mid-item {
         margin: 0;
         margin-bottom: 40px;
     }
+
     .Section-7-hero img {
         width: 100%;
     }
+
     .Home {
         margin: 0 15px;
     }
+
     .Home .Section-7 .Section-7-accordion {
         margin-top: 0;
     }
+
     .Home .Section-7 .Button {
         margin: 0 auto;
     }
+
     .Section-6 {
         display: block !important;
         text-align: center;
         margin-top: 0 !important;
     }
+
     .Home .Section-6 .Section-6-main {
         height: auto;
     }
+
     .Home .Section-11 {
         display: block !important;
     }
+
     .Section-6-main {
         text-align: center !important;
     }
+
     .Section-6-main img {
         width: 50%;
     }
+
     .experts {
         display: block !important;
         margin-bottom: 30px !important;
         padding-bottom: 0 !important;
         margin-top: 5px !important;
     }
+
     .Section-4 {
         padding: 0 !important;
     }
+
     .partner-list {
         display: block;
     }
+
     .partner-list .partner-item {
         max-width: 50%;
         margin: 20px auto;
     }
+
     .Section-4 .Heading {
         padding-bottom: 10px;
         margin-top: 30px;
     }
+
     .partner-list .partner-item {
         width: 45%;
         display: flex;
@@ -2784,13 +2850,16 @@ html {
         margin: 2%;
         justify-content: center;
     }
+
     .partner-list .partner-item img {
         max-width: 80%;
         height: 30px;
     }
+
     .Section-4 {
         display: block !important;
     }
+
     .roadmap-list {
         display: block;
         padding-left: 30px;
@@ -2798,38 +2867,44 @@ html {
         border-left: 3px solid #293BFE;
         position: relative;
     }
+
     .roadmap-list:before {
         display: block;
         content: '';
         position: absolute;
         width: 35px;
         height: 120px;
-        background-color: #121217;
+        background-color: #000;
         top: -14px;
         left: -10px;
     }
+
     .roadmap-list:after {
         display: block;
         content: '';
         position: absolute;
         width: 35px;
         height: 120px;
-        background-color: #121217;
+        background-color: #000;
         bottom: -14px;
         left: -10px;
     }
+
     .Section-4-main {
         padding-bottom: 50px;
     }
+
     .Section-4-main .Heading {
         /*padding: 0 !important;*/
         padding-bottom: 15px;
     }
+
     .roadmap-list-item {
         position: relative;
         margin: 0 !important;
         margin-bottom: 40px !important;
     }
+
     .roadmap-list-item:before {
         display: block;
         content: '';
@@ -2843,79 +2918,100 @@ html {
         left: -50px;
         z-index: 2;
     }
+
     .roadmap {
         display: none;
     }
+
     .footer-inside {
         display: block;
         padding: 20px 0;
     }
+
     .footer-logo {
         float: left;
         width: 20%;
     }
+
     .footer-socials {
         float: left;
         width: 69%;
     }
+
     .Footer-icons a {
         margin-right: 18px;
     }
+
     .footer-contacts {
         clear: both;
         width: 100%;
         text-align: center;
         padding-top: 40px;
     }
+
     .logo-content {
         float: left;
         margin-right: 25px;
     }
+
     .Home .has-text.is-heading {
         line-height: 44px;
     }
+
     .video-play-btn {
         width: 53px !important;
         margin-right: 10px;
     }
+
     .Home .Section-2 {
         padding-bottom: 0 !important;
     }
+
     .Section-3 .Paragraph-3 {
         padding: 0 !important;
         /*margin-bottom: 15px !important;*/
         font-size: 16px !important;
     }
+
     .Section-1-main .Paragraph-1 {
         margin: 15px 0;
     }
+
     .Section-7-main .Heading {
         text-align: center;
         margin-top: 0 !important;
         margin-bottom: 10px !important;
     }
+
     .Section-3 {
         padding: 0 !important;
     }
+
     .Section-3 .Heading-3 {
         margin-bottom: 15px !important;
     }
+
     .Section-6-hero p {
         margin-top: 10px !important;
     }
+
     .space-hr {
         height: 30px;
     }
+
     .Section-11 .Heading {
         margin-bottom: 10px;
     }
+
     .Pollen-desktop-buttons {
         display: flex;
         justify-content: space-between;
     }
+
     .Nav-link {
         padding: 0;
     }
+
     .Pollen-desktop-buttons .Button--white {
         margin-right: 16px;
     }
@@ -2925,3 +3021,172 @@ html {
     /*left: auto !important;*/
     /*right: 0 !important;*/
 }
+
+
+.button-gradient {
+    margin: 7px;
+    position: relative;
+    border: 4px solid transparent;
+    border-radius: 26px;
+    background-clip: padding-box;
+    background-color: #000;
+    color: #FFF !important;
+    padding: 10px 20px;
+    font-size: 15px !important;
+}
+
+.button-gradient::after {
+    position: absolute;
+    top: -3px;
+    bottom: -3px;
+    left: -3px;
+    right: -3px;
+    background: linear-gradient(#c653f8, #1558f5);
+    content: '';
+    z-index: -1;
+    border-radius: 26px;
+}
+
+.business-model {
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.business-model-list {
+    background-image: url("/landing/path80.png");
+    overflow: hidden;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.business-model h4 {
+    font-size: 40px;
+    margin: 80px auto;
+}
+
+.business-model-list .business-model-item {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.business-model-list .business-model-item p {
+    margin: 50px;
+}
+
+.business-model-list .business-model-item img {
+    max-height: 120px;
+}
+
+.business-model-list .business-model-item span {
+    display: block;
+    margin: 50px;
+}
+.is-heading p {
+    font-size: 30px;
+}
+
+.awards-area {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.awards-area .awards-area-item {
+    color: #FFF !important;
+    /*float: left;*/
+    width: 25%;
+    text-align: center;
+    padding: 30px;
+}
+.heading-customize {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 46px;
+    color: #FFF;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.only-mobile {
+    display: none;
+}
+.only-desktop {
+    display: block;
+}
+
+@media only screen and (max-width: 767px) {
+    .Section-6-hero p {
+        margin-right: 0 !important;
+    }
+    .partner-list {
+        overflow: hidden;
+    }
+    .partner-list .partner-item {
+        height: auto;
+    }
+    .partner-list .partner-item img {
+        height: 90px;
+        max-width: 100% !important;
+    }
+    .roadmap-list-item:before {
+        display: block;
+        content: '';
+        position: absolute;
+        width: 35px !important;
+        height: 35px !important;
+        background-color: #293BFE;
+        border-radius: 50%;
+        top: 50% !important;
+        transform: translateY(-50%);
+        left: -50px !important;
+        z-index: 2;
+    }
+    .roadmap-list .roadmap-list-item {
+        z-index: 1;
+    }
+    .awards-area {
+        display: block;
+    }
+    .awards-area .awards-area-item {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .footer-logo {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .footer-contacts {
+        text-align: left;
+        margin-left: 30px;
+    }
+    .only-desktop {
+        display: none;
+    }
+    .only-mobile {
+        display: block;
+    }
+    .business-model {
+        margin-bottom: 0;
+    }
+    .business-model-list {
+        background-image: none;
+    }
+    .business-model h4 {
+        margin: 10px auto;
+    }
+    .business-model-list .business-model-item {
+        float: none;
+        width: 100%;
+    }
+    .introducing-wrapp {
+        padding: 0;
+    }
+    .introducing-item {
+        margin-bottom: 15px;
+    }
+}
+

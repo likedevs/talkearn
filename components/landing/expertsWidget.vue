@@ -7,7 +7,7 @@
             :key="i"
             class="col-lg-3 col-md-6 col-12 d-flex child-flex"
         >
-          <v-card>
+          <v-card class="team-item">
             <v-badge
                 v-if="item.online === true"
                 bordered
@@ -21,7 +21,7 @@
             <v-img
                 :src="`/avatars/${item.avatar}`"
                 aspect-ratio="1"
-                class="grey lighten-2"
+                class="grey lighten-2 team-item-image"
             >
             </v-img>
             <v-card-title class="title justify-center">
@@ -144,4 +144,19 @@ export default {
 .experts .v-card__subtitle {
   margin-top: 0 !important;
 }
+
+.team-item {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #2e46f5;
+}
+
+.team-item .team-item-image {
+  border-radius: 50% !important;
+}
+
+.team-item .title {
+  margin-top: 30px;
+}
+
 </style>
