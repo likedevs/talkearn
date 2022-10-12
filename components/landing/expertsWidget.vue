@@ -143,6 +143,7 @@ export default {
 
 .experts .v-card__subtitle {
   margin-top: 0 !important;
+  font-size: 14px !important;
 }
 
 .team-item {
