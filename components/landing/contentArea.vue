@@ -338,7 +338,7 @@
         </div>
 
         <div class="space-hr" id="team"></div>
-        <section class="Section-11">
+        <section class="Section-11 Team-section">
           <div class="Header Heading has-text is-white is-centered is-heading is-large">
             Our Team
           </div>

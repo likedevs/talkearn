@@ -2481,10 +2481,10 @@ html {
     line-height: 2 !important;
 }
 
-.Section-11-main .v-card > .v-card__progress + :not(.v-btn):not(.v-chip), .v-card > :first-child:not(.v-btn):not(.v-chip) {
-    border-top-left-radius: 0px !important;
-    border-top-right-radius: 0px !important;
-}
+/*.Section-11-main .v-card > .v-card__progress + :not(.v-btn):not(.v-chip), .v-card > :first-child:not(.v-btn):not(.v-chip) {*/
+/*    border-top-left-radius: 0px !important;*/
+/*    border-top-right-radius: 0px !important;*/
+/*}*/
 
 .Section-11-main .v-card__subtitle, .v-card__text, .v-card__title {
     padding: 0;
@@ -3222,9 +3222,4 @@ html {
     border-top-right-radius: 50% !important;
     border-top-left-radius: 50% !important;
     background-color: #2e46f5 !important;
-}
-
-.Section-11-main .v-card > .v-card__progress + :not(.v-btn):not(.v-chip), .v-card > :first-child:not(.v-btn):not(.v-chip) {
-    border-top-left-radius: 50% !important;
-    border-top-right-radius: 50% !important;
 }
