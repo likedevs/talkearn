@@ -473,18 +473,35 @@
               <p>Getting paid for Video Calls made easy</p>
               <div class="Footer-icons">
 
-                <a class="Pollen-telegram" target="_blank" href="https://t.me/talkearn_official">
-                  <img src="/landing/discord.png" alt="telegram">
+                <a class="Pollen-discord medium-icon" target="_blank" href="https://talkearn.medium.com">
+                  <img src="/landing/Medium-Logo.png" alt="medium" style="height: 18px; width: auto">
                 </a>
+
                 <a class="Pollen-twitter" target="_blank" href="https://twitter.com/TalkEarn">
                   <img src="/landing/twitter.png" alt="twitter">
                 </a>
-                <a class="Pollen-discord medium-icon" target="_blank" href="https://github.com/talkearn/talkearn">
-                  <img src="/landing/youtube.png" alt="medium" style="height: 15px;">
+
+                <a class="Pollen-telegram" target="_blank" href="https://t.me/talkearn_official">
+                  <img src="/landing/telegram-icon-white-transparent.svg" alt="telegram">
                 </a>
-                <a class="Pollen-discord medium-icon" target="_blank" href="https://talkearn.medium.com/">
+
+                <a class="Pollen-discord medium-icon" target="_blank" href="https://linkedin.com/company/talkearn">
                   <img src="/landing/linkedin.png" alt="medium" style="height: 15px; width: auto !important;">
                 </a>
+
+<!--                <a class="Pollen-discord medium-icon" target="_blank" href="https://github.com/talkearn/talkearn">-->
+<!--                  <img src="/landing/youtube.png" alt="medium" style="height: 15px;">-->
+<!--                </a>-->
+
+
+<!--                <a class="Pollen-twitter" target="_blank" href="https://twitter.com/TalkEarn">-->
+<!--                  <img src="/landing/twitter-icon-white-transparent-24.svg" alt="twitter">-->
+<!--                </a>-->
+
+
+<!--                <a class="Pollen-discord medium-icon" target="_blank" href="https://github.com/talkearn/talkearn">-->
+<!--                  <img src="/landing/github-logo.svg" alt="medium" style="height: 15px;">-->
+<!--                </a>-->
               </div>
             </div>
             <div class="footer-contacts">

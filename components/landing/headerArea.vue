@@ -20,7 +20,7 @@
             Whitepaper
           </a>
           <a rel="noopener noreferrer" target="_blank" class="button-gradient"
-             href="https://www.canva.com/design/DAE6CHg3TtM/wYqkGERgcbn6umLn0fkepQ/view?utm_content=DAE6CHg3TtM&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton">
+             href="https://www.canva.com/design/DAFOLYUq46I/FqFG1nIf4TLoc0NCFoANqw/view?utm_content=DAFOLYUq46I&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">
             <div class="Button-caption">Pitch Deck</div>
           </a>
         </div>

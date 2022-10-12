@@ -154,7 +154,11 @@ export default {
 
 .team-item .team-item-image {
   border-radius: 50% !important;
+  border-top-right-radius: 50% !important;
+  border-top-left-radius: 50% !important;
+  background-color: #2e46f5 !important;
 }
+
 
 .team-item .title {
   margin-top: 30px;
